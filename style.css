@@ -1,0 +1,26 @@
+body {
+   background: lightsteelblue;
+   font-family: "Lucida Sans Unicode";
+   padding-top:3em;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px
+}
+
+h4{
+  font-size: 20px;
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+a {
+  color: black;
+}
