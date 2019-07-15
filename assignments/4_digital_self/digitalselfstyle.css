@@ -2,3 +2,29 @@ body {
   font-size: 20px;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+.table{
+  width: 100%;
+}
+
+.specialtable{
+    padding-top: 4em;
+}
+
+.post:hover {
+  opacity: 0.5;
+}
+
+/* .post{
+  width: 300;
+  height: 300;
+  background-position:center;
+  bakcground-repeat: no-repeat;
+  background-image: url(...insta_posts/ny.jpg);
+}
+
+
+.post:hover:after{
+  content: attr(data-hover);
+  font-size: 24px;
+} */
