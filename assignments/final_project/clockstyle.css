@@ -1,0 +1,71 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img {
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  box-shadow: 3px 3px 12px gray;
+  background: white;
+}
+
+#pic1 {
+  top: 1%;
+  left: 8%;
+}
+
+#pic2 {
+  top: 5%;
+  left: 32%;
+}
+
+#pic3 {
+  top: 3%;
+  left: 56%;
+}
+
+#pic11 {
+  top: 5%;
+  left: 80%;
+}
+
+#pic4 {
+  top: 34%;
+  left: 5%;
+}
+
+#pic5 {
+  top: 35%;
+  left: 27%;
+}
+
+#pic6 {
+  top: 35%;
+  left: 50%;
+}
+
+
+#pic7 {
+  top: 35%;
+  left: 75%;
+}
+
+#pic8 {
+  top: 65%;
+  left: 3%;
+}
+
+#pic9 {
+  top: 70%;
+  left: 23%;
+}
+
+#pic10 {
+  top: 67%;
+  left: 46%;
+}
