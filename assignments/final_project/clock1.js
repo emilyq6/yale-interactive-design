@@ -81,7 +81,7 @@ let images = [
 ]
 
 let wrap = document.querySelector(".wrap");
-let imgs = document.querySelectorAll(".wrap img");
+let imgs = document.write("img");
 
 setInterval(function() {
   time();
@@ -111,22 +111,25 @@ setInterval(function() {
   }
 
   else {
-    age = 0;
+    age = 0; //year1 just for now since I already have the urls in for it
     getPictures();
     }
 
   }
 
 time();
-getPictues();
+getPictures();
 
   function getPictures() {
 
     console.log(images[age].year, images[age].src);
 
-    for (i = 0; i < imgs.length; i++) {
+    for (i = 0; i < imgs.length; i++)
+
+  {
     let img = imgs[i];
     img.src = images[age].src[i];
     img.id = images[age].ids[i];
     }
+
   }
