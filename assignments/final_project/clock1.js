@@ -94,13 +94,24 @@ setInterval(function() {
    let hours = d.getHours();
    let minutes = d.getMinutes();
 
-  if (hours == 13 ) {
-    age =  7;
+// using these hours just to experiment for now
+  if (hours == 16 ) {
+    age =  7; //year8
     getPictures();
-    }
+  }
+
+  if (hours == 17 ) {
+    age =  8; //year9
+    getPictures();
+  }
+
+  if (hours == 18 ) {
+    age =  9; //year10
+    getPictures();
+  }
 
   else {
-    age = 8;
+    age = 0;
     getPictures();
     }
 
@@ -109,13 +120,13 @@ setInterval(function() {
 time();
 getPictues();
 
-function getPictures() {
+  function getPictures() {
 
-  console.log(images[age].year, images[age].src);
+    console.log(images[age].year, images[age].src);
 
-  for (i = 0; i < imgs.length; i++) {
-  let img = imgs[i];
-  img.src = images[age].src[i];
-  img.id = images[age].ids[i];
+    for (i = 0; i < imgs.length; i++) {
+    let img = imgs[i];
+    img.src = images[age].src[i];
+    img.id = images[age].ids[i];
+    }
   }
-}
