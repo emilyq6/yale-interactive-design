@@ -124,13 +124,13 @@ function time() {
 
   if (calcAge > initialAge) {
     initialAge = calcAge;
-    console.log("Older by a year!!!", `Age: ${calcAge + 1} Images: ${images[calcAge].srcs.length}`);
+    console.log("Age Up!", `Age: ${calcAge + 1} Images: ${images[calcAge].srcs.length}`);
 
     wrap.innerHTML = "";
 
     if (srcsPosition !== 0) {
       wrap.innerHTML = "";
-      console.log("halfway through a set! Let's Load Everything so far");
+      console.log("halfway through, load pictures so far");
       for (let i = 0; i <= srcsPosition; i++) {
         let newImage = document.createElement("img");
         let image = images[calcAge].srcs[i];
