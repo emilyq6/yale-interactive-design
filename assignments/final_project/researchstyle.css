@@ -1,0 +1,13 @@
+body {
+     background: lightsteelblue;
+     padding-top: 3em;
+     font-family: "Lucida Sans Unicode";
+}
+
+#quote {
+    display: inline;
+}
+
+#bottom {
+  text-align: right;
+}
