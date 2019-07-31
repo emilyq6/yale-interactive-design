@@ -44,7 +44,7 @@ let images = [
    {
      year: "year8",
      ids: ["pic78", "pic79", "pic80", "pic81", "pic82", "pic83", "pic84", "pic85", "pic86", "pic87", "pic88"],
-     srcs: ["http://bit.ly/32Zswrk", "http://bit.ly/2Ypn01R", "http://bit.ly/32ZAP6r", "http://bit.ly/2ypsxGW", "http://bit.ly/2KhdSTC", "http://bit.ly/2ymATyX", "http://bit.ly/333nZnx", "http://bit.ly/330M3Yj","http://bit.ly/32ZsG1U", "http://bit.ly/2GACwxG", "http://bit.ly/2Yep25l"]
+     srcs: ["http://bit.ly/32Zswrk", "http://bit.ly/2Ypn01R", "http://bit.ly/32ZAP6r", "http://bit.ly/2ypsxGW", "http://bit.ly/2GBfWVw", "http://bit.ly/2ymATyX", "http://bit.ly/333nZnx", "http://bit.ly/330M3Yj","http://bit.ly/32ZsG1U", "http://bit.ly/2GACwxG", "http://bit.ly/2Yep25l"]
    },
 
    {
