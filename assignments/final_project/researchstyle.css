@@ -4,10 +4,15 @@ body {
      font-family: "Lucida Sans Unicode";
 }
 
-#quote {
-    display: inline;
+#bottom {
+  display:block;
 }
 
-#bottom {
-  text-align: right;
+.layout {
+  left: 0; right: 0;
+  margin: auto;
+}
+
+.text {
+  display: block;
 }
