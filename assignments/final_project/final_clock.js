@@ -107,26 +107,16 @@ function time() {
   let minutes = d.getMinutes();
   let seconds = d.getSeconds();
 
-  // Here's a variable to divide 24hr day into some number of parts
-  // We use images.length so that you can always add another year.
-  // 16 years would mean 90-minute segments
-  // 2 years would means 12-hour segments
   let percentOfDay = (hours * 60 + minutes) / 1440;
-  // let percentOfHour = minutes/60;
-  // For this example, I can instead do everything in 60 seconds
-  // let percentOfDay = seconds / 60;
-  // This should allow the function to work with any number of years
+
   let rawAge = percentOfDay * images.length;
   let calcAge = Math.floor(percentOfDay * images.length);
 
-  // The eon is a variable to detemine how much time should it should take before a new set of images should appear.
-  // let eon = 1440 / images.length;
   let eon = 1440 / images.length;
-  // The delay is the amount of time between images in this eon.
+
   let duration = eon / images[calcAge].srcs.length;
 
   function getPercentageOfEon() {
-    // 6.4 - 6 = .4 so 40%;
     return rawAge - calcAge;
   }
 
@@ -154,7 +144,6 @@ function time() {
   else if (calcAge == 0 && initialAge !== 0) {
     initialAge = calcAge;
     console.log("Back to being a baby again!!!");
-    // age.innerHTML = `Age: ${calcAge + 1}, Images: ${images[calcAge].srcs.length}`;
     wrap.innerHTML = "";
   }
 
