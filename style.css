@@ -4,6 +4,22 @@ body {
    padding-top:3em;
 }
 
+img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#enjoy{
+  display: block;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-align: center;
+}
+
 h1{
   text-align: center;
 }
@@ -21,6 +37,7 @@ h4{
 ul{
   text-align: center;
 }
-a {
-  color: black;
+
+#button{
+  align-content: center;
 }
